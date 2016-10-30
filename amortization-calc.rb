@@ -135,7 +135,7 @@ puts "-"*65
 puts "Principal (loan amount): $#{l.principal}"
 puts "Annual interest rate percentage: #{l.interest_rate*100}%"
 puts "Total interest to pay: $#{((l.payment(l.principal, l.interest_rate, l.payment_type, l.periods) * l.periods) - l.principal).round(2)}"
-puts "Total to pay: #{l.payment(l.principal, l.interest_rate, l.payment_type, l.periods) * l.periods}"
+puts "Total to pay: #{(l.payment(l.principal, l.interest_rate, l.payment_type, l.periods) * l.periods).round(2)}"
 line_feed
 
 puts "PAYMENTS PLAN"

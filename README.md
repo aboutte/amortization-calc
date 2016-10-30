@@ -25,7 +25,7 @@ LOAN INFORMATION
 Principal (loan amount): $5000.0
 Annual interest rate percentage: 30.0%
 Total interest to pay: $189.52
-Total to pay: 5189.5199999999995
+Total to pay: 5189.51
 
 PAYMENTS PLAN
 ----------------------------------------------------------------------
